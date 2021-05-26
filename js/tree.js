@@ -1,7 +1,5 @@
-class tree
-{
-	constructor(x,y)
-	{
+class Tree{
+	constructor(x,y){
 		this.x=x;
 		this.y=y;
 		this.dustbinWidth=450;
@@ -18,8 +16,7 @@ class tree
 		World.add(world, this.rightWallBody);
 
 	}
-	display()
-	{
+	display(){
 			var posBottom=this.bottomBody.position;
 			push()
 			translate(posBottom.x, posBottom.y+10);
